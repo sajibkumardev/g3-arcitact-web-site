@@ -2,7 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
 /* Shearde style */
 .btn-primary{
-    
+    background: #FF900E;
+    border-radius: 8px;
+    padding: 20px 25px;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 600;
+    cursor: pointer;
+    border: 0;
 }
 *{
     font-family: 'Work Sans', sans-serif;
@@ -50,4 +57,26 @@ nav li a{
     color: #727272;
     font-size: 1rem;
     font-weight: 400;
+}
+.banner img{
+    width: 100%;
+    margin-top: 20px;
+}
+/* Responsiv media quwary */
+@media screen and (max-width:576px) {
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+}
+/* tablet and mobile deviaces */
+@media screen and (min-width:576px) and (max-width:960px) {
+    header{
+        padding: 50px;
+    }
+    nav{
+        flex-direction: column;
+    }
 }
